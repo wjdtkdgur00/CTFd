@@ -1,0 +1,12 @@
+service crackme1
+{
+	disable = no
+	flags = REUSE
+	socket_type = stream
+	protocol = tcp
+	user = ctfd
+	wait = no
+	server = /home/crackme1/run.sh
+	type = UNLISTED
+	port = 3653
+}
